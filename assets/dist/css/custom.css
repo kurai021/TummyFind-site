@@ -571,6 +571,10 @@
   content: "\e056";
 }
 
+.background-texture {
+	background: url("../img/round-pattern.png")
+}
+
 .features-one .feature__icon i {
   font-weight: 500;
 }
@@ -640,16 +644,114 @@
   transform: rotateY(-2deg);
 }
 
+.faq-two {
+ margin-top:5rem;
+ margin-bottom:5rem;
+ overflow:hidden;
+ position:relative
+}
+@media only screen and (min-width: 992px) {
+ .faq-two {
+  margin-top:7.5rem;
+  margin-bottom:7.5rem
+ }
+}
+@media only screen and (max-width: 991px) {
+ .faq-two {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:reverse;
+  -ms-flex-direction:column-reverse;
+  flex-direction:column-reverse;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center
+ }
+}
+.faq-two .section-title {
+ text-align:left;
+ margin-left:0
+}
+.faq-two .faq {
+ margin-bottom:1.25rem
+}
+.faq-two .faq-header button {
+ background:transparent;
+ padding-bottom:1.25rem;
+ text-align:left
+}
+.faq-two .faq-header button i {
+ margin-right:.625rem;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.faq-two .faq-header button.collapsed i {
+ -webkit-transform:rotate(90deg);
+ -ms-transform:rotate(90deg);
+ transform:rotate(90deg)
+}
+.faq-two .faq-header h5 {
+ border-bottom:1px solid #e2e6ea
+}
+.faq-two .faq p {
+ padding-bottom:.625rem
+}
+.faq-two .faq-contact {
+ margin-top:4.375rem
+}
+.faq-two .faq-contact__content {
+ font-size:1.0625rem;
+ font-weight:400
+}
+.faq-two .faq-contact__content a {
+ color:#4777f4;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.faq-two .faq-contact__content a:hover {
+ color:#779bf7
+}
+@media only screen and (min-width: 768px) {
+	.features-one {
+  	padding-bottom: 6.875rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+ .faq-two .faq-media {
+  max-width:550px;
+  margin:0 auto 3.125rem
+ }
+}
+@media only screen and (min-width: 992px) {
+ .faq-two .faq-media {
+  position:absolute;
+  right:-330px;
+  bottom:20px
+ }
+}
+@media only screen and (min-width: 1200px) {
+ .faq-two .faq-media {
+  right:-250px
+ }
+}
+@media only screen and (min-width: 1600px) {
+ .faq-two .faq-media {
+  right:0
+ }
+}
+
 @media only screen and (min-width: 992px){
   .features-two .feature-media {
     position: relative;
   }
 
-  .features-two {
-    padding-bottom: 0px;
-  }
-
-  .working-process {
-    padding-top: 0px;
-  }
+	.faq-two{
+    padding-top: 7.1875rem;
+    padding-bottom: 10.9375rem;
+		margin-bottom: 0px;
+	}
 }
