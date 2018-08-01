@@ -584,13 +584,13 @@
 }
 
 .hero-five {
-  background-image: url("../img/hero-1.1.png");
+  background-image: url("../img/food-background.jpg");
 }
 
 .overlay {
-  background: -webkit-linear-gradient(138deg, #8E151E 0%, #8E151E 100%);
-  background: -o-linear-gradient(138deg, #8E151E 0%, #8E151E 100%);
-  background: linear-gradient(-48deg, #8E151E 0%, #8E151E 100%);
+  background: -webkit-linear-gradient(138deg, #212121 0%, #8E151E 100%);
+  background: -o-linear-gradient(138deg, #212121 0%, #8E151E 100%);
+  background: linear-gradient(-48deg, #212121 0%, #8E151E 100%);
   opacity: .7;
 }
 
@@ -650,6 +650,28 @@
  overflow:hidden;
  position:relative
 }
+
+.newsletter-two  {
+	background-color: #212121;
+	color: #ffffff;
+}
+
+.newsletter-two .newsletter-optin__title {
+	color: #ffffff;
+}
+
+.newsletter-two .newsletter-icon i {
+	color: #8E151E;
+}
+
+.db-btn__outline::before {
+	background: #8E151E;
+}
+
+.newsletter-two .newsletter-optin__form .btn__submit {
+	background-color: #8E151E;
+}
+
 @media only screen and (min-width: 992px) {
  .faq-two {
   margin-top:7.5rem;
